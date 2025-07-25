@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   let adresses = [];
 
-  fetch('adresse.json')
+  fetch('adresses.json')
     .then(res => res.json())
     .then(data => adresses = data);
 
