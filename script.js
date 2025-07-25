@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(res => res.json())
     .then(data => adresses = data);
 
-  const adresseInput = document.getElementById('adresse_paris');
+  const adresseInput = document.getElementById('adresses_paris');
   const suggestionBox = document.getElementById('suggestions');
 
   adresseInput.addEventListener('input', function () {
