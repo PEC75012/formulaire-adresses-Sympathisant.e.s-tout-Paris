@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   let adresses = [];
-
+//changer le nom du fichier Json pour changer de base d'adresse//
   fetch('adresses_paris.json')
     .then(res => res.json())
     .then(data => adresses = data);
