@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   let adresses = [];
 
-  fetch('adresse_paris.json')
+  fetch('adresse.json')
     .then(res => res.json())
     .then(data => adresses = data);
 
-  const adresseInput = document.getElementById('adresse_paris');
+  const adresseInput = document.getElementById('adresse');
   const suggestionBox = document.getElementById('suggestions');
 
   adresseInput.addEventListener('input', function () {
